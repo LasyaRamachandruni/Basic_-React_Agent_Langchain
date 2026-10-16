@@ -1,3 +1,5 @@
+> **Moved:** this project now lives in [Agent-Eval-Harness](https://github.com/LasyaRamachandruni/Agent-Eval-Harness). Its ReAct loop now runs as the `react` strategy of the harness (`agent-eval run --strategy react`), on its own model interface instead of LangChain, with Anthropic, OpenAI and Ollama models, native tool calling, and benchmarks (HotpotQA, HumanEval) to measure it. This repository is kept for reference and is no longer developed.
+
 # Basic React Agent with LangChain
 
 A simple starter template for building intelligent agents using Google's Gemini models and LangChain's ReAct framework. This project helps you quickly prototype reasoning agents that can use tools and make decisions autonomously.
